@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #1f1f1f;
+    font-size: 13px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 15px;
+    margin: 10px 15px;
+    padding: 6px;
+}
+
+footer {
+    background-color: #dadce0;
+    padding: 15px 30px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    height: 100%;
+}
+
+.botao-login {
+    background-color: #1a73e8;
+    color: #ffffff;
+    font-size: 14px;
+    font-family: "Google Sans", roboto, "Noto Sans Myanmar UI", arial, sans-serif;
+    font-weight: 500;
+    padding: 9px 23px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.botao-login:hover{
+    text-decoration: none;
+    background: #1b66c9;
+    box-shadow: 0 1px 3px 1px rgba(66, 64, 67, .15), 0 1px 2px 0 rgba(60, 64, 67, .3);
+}
+
+.aplicativos {
+    height: 24px;
+    fill: #9aa0a6;
+}
+
+.rodape-pais {
+    border-bottom: 1px solid #d2d2d2;
+}
+
+.rodape-esquerda {
+    padding: 15px 0px;
+    display: flex;
+    gap: 15px;
+
+}
+
+.rodape-direita {
+    padding: 15px 0px;
+    display: flex;
+    gap: 15px;
+
+}
+
+.rodapes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    font-family: arial, sans-serif;
+
+}
+
+.pesquisar {
+    height: 20px;
+    padding: 15px;
+    min-height: 20px;
+    margin: 1px 0px;
+    fill: #9aa0a6;
+}
+
+.teclado {
+    width: 20px;
+    min-width: 20px;
+    padding: 8px;
+}
+
+.microfone {
+    height: 24px;
+    min-height: 24px;
+    padding: 8px;
+}
+
+.camera {
+    height: 24px;
+    min-height: 24px;
+    padding: 8px;
+    margin-right: 8px;
+}
+
+.caixa-botao {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 10vh;
+}
+
+.botao {
+    background-color: #fff;
+    font-size: 14px;
+    font-family: "Google Sans", roboto, "Noto Sans Myanmar UI", arial, sans-serif;
+    font-weight: 500;
+    padding: 9px 23px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.botao:hover {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+}
+
+.input-pesquisa {
+    width: 100%;
+    height: 22px;
+    border: none;
+    outline: none;
+}
+
+.input-pesquisa:hover {
+    outline: none;
+}
+
+.barra-pesquisa {
+    border: 1px solid #d2d2d2;
+    border-radius: 100px; 
+    display: flex;
+    align-items: center;
+    width: 583px;
+    
+}
+
+.barra-pesquisa:hover {
+    box-shadow: 0 1px 3px 1px rgba(66, 64, 67, .15), 0 1px 2px 0 rgba(60, 64, 67, .3);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+}
+
+.barra-pesquisa:focus-within {
+    box-shadow: 0 1px 3px 1px rgba(66, 64, 67, .15), 0 1px 2px 0 rgba(60, 64, 67, .3);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+}
